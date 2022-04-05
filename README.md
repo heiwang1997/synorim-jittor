@@ -1,10 +1,11 @@
 # SyNoRiM - Jittor
 
-### [**Paper**](https://arxiv.org/abs/2111.12878) | [**Project Page**](https://cg.cs.tsinghua.edu.cn/people/~huangjh/publication/synorim/)
+### [**Paper**](https://arxiv.org/abs/2111.12878) | [**Project Page**](https://cg.cs.tsinghua.edu.cn/people/~huangjh/publication/synorim/) | [**Pytorch**](https://github.com/huangjh-pub/synorim)
 
-This repository contains an experimental [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/) implementation of 'SyNoRiM: Multiway Non-rigid Point Cloud Registration via Learned Functional Map Synchronization'. Pytorch users please refer to [this repository](https://github.com/huangjh-pub/synorim).
+This repository contains an experimental [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/) implementation of 'SyNoRiM: Multiway Non-rigid Point Cloud Registration via Learned Functional Map Synchronization'. 
+As we make several method-wise simplifications to adapt to jittor, for evaluation please stick to the [original version](https://github.com/huangjh-pub/synorim).
 
-Jittor is an open-source deep learning framework led by the computer graphics lab of Tsinghua University, under the supervision of [Prof. Shi-Min Hu](https://scholar.google.com/citations?user=LDb4tb0AAAAJ&hl=en). The two main contributions, i.e., **meta-operator fusion** and **uniform computation graph**, make it very fast, compared to traditional deep learning frameworks. Please join us via [this link](https://cg.cs.tsinghua.edu.cn/jittor/about/).
+Jittor is an open-source deep learning framework led by the computer graphics lab of Tsinghua University, under the supervision of [Prof. Shi-Min Hu](https://scholar.google.com/citations?user=LDb4tb0AAAAJ&hl=en). The two main contributions, i.e., **meta-operator fusion** and **uniform computation graph**, make it very fast, compared to traditional deep learning frameworks.
 
 ## Dependencies
 
@@ -44,9 +45,9 @@ python train.py configs/test.yaml
 
 The jittor framework will use GPU automatically.
 
-## Notice
+## Acknowledgement
 
-The jittor implementation is largely based on [Jittor PointCloudLib](https://github.com/Jittor/PointCloudLib). We use PointNet++ to replace the sparse convolution used in the original paper. We also make several method-wise simplifications to adapt to jittor. For evaluation please stick to the [original version](https://github.com/huangjh-pub/synorim).
+The jittor implementation is largely based on [Jittor PointCloudLib](https://github.com/Jittor/PointCloudLib). We use PointNet++ to replace the sparse convolution used in the original paper.
 
 ## Citation
 
